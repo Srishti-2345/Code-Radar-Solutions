@@ -7,7 +7,7 @@ int main() {
     scanf("%d %d", &a,&b);
     if(a==b^2){
         printf("Yes");
-    }else if(a!=b^2){
+    }else {
         printf("No");
     }
     return 0;
