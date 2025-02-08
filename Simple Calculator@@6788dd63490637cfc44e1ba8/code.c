@@ -7,7 +7,7 @@ int main() {
     int result;
 
     if (scanf("%d %c %d", &num1, &operator, &num2) != 3) {
-        fprintf(stderr, "Invalid input format. Please enter: number operator number\n");
+        
         return 1;
     }
 
