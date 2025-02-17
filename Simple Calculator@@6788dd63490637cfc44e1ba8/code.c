@@ -1,41 +1,22 @@
 #include <stdio.h>
-#include <stdlib.h>
-
 int main() {
-    int num1, num2;
-    char operator;
-    int result;
-
-    if (scanf("%d %c %d", &num1, &operator, &num2) != 3) {
-        
-        return 1;
+    int a,b;
+    char op;
+    scanf("%d %d %c", &a,&b,&op);
+    if (op=='+') {
+        printf("%d", a+b);
     }
-
-    switch (operator) {
-        case '+':
-            result = num1 + num2;
-            printf("%d\n", result);
-            break;
-        case '-':
-            result = num1 - num2;
-            printf("%d\n", result);
-            break;
-        case '*':
-            result = num1 * num2;
-            printf("%d\n", result);
-            break;
-        case '/':
-            if (num2 == 0) {
-                fprintf(stderr, "Error: Division by zero.\n");
-                return 1;
-            }
-            result = num1 / num2;
-            printf("%d\n", result);
-            break;
-        default:
-            fprintf(stderr, "Error: Invalid operator.  Use +, -, *, or /.\n");
-            return 1;
+    else if(op=='-') {
+        printf("%d", a-b);
     }
-
-    return 0;
+    else if(op=='*') {
+        printf("%d", a*b);
+    }
+    else if(op='/') {
+        if (b!=0) {
+            printf("%d", a/b);
+        } else {
+            printf("error");
+        }
+    }
 }
