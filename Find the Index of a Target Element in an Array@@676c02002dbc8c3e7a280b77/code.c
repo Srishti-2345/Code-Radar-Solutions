@@ -15,8 +15,8 @@ for(int i=0;i<n;i++){
         printf("%d ", i);
         break;
     }
-//     else{
-//         printf("-1");
-//     }
-// }
+    // else{
+    //     printf("-1");
+    // }
+}
 }
