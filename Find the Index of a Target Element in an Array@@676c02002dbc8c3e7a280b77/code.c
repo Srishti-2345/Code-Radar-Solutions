@@ -15,5 +15,5 @@ for(int i=0;i<n;i++){
         printf("%d",i);
     }
 
-}printf("-1")
+}printf("-1");
 }
