@@ -14,6 +14,9 @@ for(int i=0;i<n;i++){
     if(target==array[i]){
         printf("%d",i);
     }
+    else{
+        printf("-1");
+    }
 
-}printf("-1");
+}
 }
