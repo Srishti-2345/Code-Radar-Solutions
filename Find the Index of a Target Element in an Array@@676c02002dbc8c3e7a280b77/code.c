@@ -12,7 +12,7 @@ int target;
 scanf("%d",&target);
 for(int i=0;i<n;i++){
     if(target==array[i]){
-        print("%d ", i);
+        printf("%d ", i);
         break;
     }
 }
