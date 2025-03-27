@@ -29,7 +29,7 @@ int main() {
     }
 
     // Print the count
-    printf(" %d", value);
+    printf("%d", value);
 
     return 0;
 }
