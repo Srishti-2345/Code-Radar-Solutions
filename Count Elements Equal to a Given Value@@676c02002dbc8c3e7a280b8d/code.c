@@ -14,4 +14,5 @@ int main(){
             value=value+1;
         }
     }
+    printf("%d",&value);
 }
