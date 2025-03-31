@@ -8,7 +8,7 @@ int main(){
     scanf("%d",&elements);
     int array[elements];
     for(int i=0;i<elements;i++){
-        scanf("%d",&elements[i]);
+        scanf("%d",&array[i]);
     }
     for (int i=0;i<elements;i++){
         if(array[i]/2==0){
