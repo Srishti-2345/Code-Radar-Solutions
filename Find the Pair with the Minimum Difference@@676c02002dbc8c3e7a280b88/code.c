@@ -23,7 +23,7 @@ int main() {
                     m=i;
                     n=j;
                 }
-            }
+            }break;
         }
         if (arr[m]>arr[n]){
             int c=arr[m];
