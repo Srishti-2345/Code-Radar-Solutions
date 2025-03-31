@@ -1,25 +1,23 @@
 // Your code here...
-#include<stdio.h>
-int main(){
-    int n;
-    scanf("%d",&n);
-    int array[n];
-    for(int i=0;i<n;i++){
-        scanf("%d",&array[i]);
-
+#include <stdio.h>
+#include <limits.h>
+int main() {
+    int a;
+    scanf ("%d",&a);
+    int arr[a];
+    for (int i=0;i<a;i++){
+        scanf("%d",&arr[i]);
     }
-int target;
-scanf("%d",&target);
-for(int i=0;i<n;i++){
-    if(target==array[i]){
-        printf("%d ", i);
-        break;
+    int k;
+    scanf ("%d",&k);
+    int count=0;
+    for (int i=0;i<a;i++){
+        if (arr[i]==k){
+            printf("%d",i);
+            count+=1;
+            break;
+        }
     }
-    else if(target!=array[i]){
+    if (count==0){
         printf("-1");
     }
-    // else{
-    //     printf("-1");
-    // }
-}
-}
