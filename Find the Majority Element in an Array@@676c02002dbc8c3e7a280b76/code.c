@@ -1,4 +1,5 @@
 // Your code here...#include <stdio.h>
+#include<stdio.h>
 
 void findFrequency(int arr[], int n) { int visited[n]; for (int i = 0; i < n; i++) { visited[i] = 0; }
 
@@ -21,7 +22,7 @@ for (int i = 0; i < n; i++) {
 
     
 }
-printf("%d",&max);
+ printf("%d",&max);
 
 }
 
