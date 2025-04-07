@@ -4,6 +4,7 @@
 void findFrequency(int arr[], int n) { int visited[n]; for (int i = 0; i < n; i++) { visited[i] = 0; }
 
 int max=0;
+int frequency=0;
 
 for (int i = 0; i < n; i++) {
     if (visited[i] == 1)
@@ -13,10 +14,10 @@ for (int i = 0; i < n; i++) {
     for (int j = i + 1; j < n; j++) {
         if (arr[i] == arr[j]) {
             count++;
-            if(count>max){
+            if(count>frequency){
                 max=arr[i];
             }
-            else if(count==max){
+            else if(count==frequency){
                 max=-1;
             }else{
                 continue;
