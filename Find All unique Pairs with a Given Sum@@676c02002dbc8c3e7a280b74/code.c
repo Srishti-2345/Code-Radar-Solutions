@@ -14,9 +14,7 @@ int main() {
         for (int j=i+1;j<a;j++){
             if (arr[i]+arr[j]==k){
                 printf("%d %d\n",arr[i],arr[j]);
-                if(arr[i]==arr[j]){
-                    break;
-                }
+                
             }
         }
     }
