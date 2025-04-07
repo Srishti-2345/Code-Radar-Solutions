@@ -22,7 +22,7 @@ for (int i = 0; i < n; i++) {
 
     
 }
- printf("%d",&max);
+ printf("%d",max);
 
 }
 
