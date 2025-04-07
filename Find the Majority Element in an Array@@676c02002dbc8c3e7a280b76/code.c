@@ -19,14 +19,14 @@ for (int i = 0; i < n; i++) {
             }
             
             }else{
-                continue;
+                max=-1;
             }
             visited[j] = 1;
         }
     }
 
     
-}
+
  printf("%d",max);
 
 }
