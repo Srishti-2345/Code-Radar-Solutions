@@ -14,7 +14,7 @@ for (int i = 0; i < n; i++) {
         if (arr[i] == arr[j]) {
             count++;
             if(count>max){
-                max=count;
+                max=arr[i];
             }
             visited[j] = 1;
         }
