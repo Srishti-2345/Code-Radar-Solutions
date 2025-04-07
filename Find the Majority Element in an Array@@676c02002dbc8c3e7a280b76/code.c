@@ -16,8 +16,10 @@ for (int i = 0; i < n; i++) {
             if(count>max){
                 max=arr[i];
             }
-            if(count==max){
+            else if(count==max){
                 max=-1;
+            }else{
+                continue;
             }
             visited[j] = 1;
         }
