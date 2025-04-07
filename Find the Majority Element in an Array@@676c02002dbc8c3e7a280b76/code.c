@@ -14,11 +14,10 @@ for (int i = 0; i < n; i++) {
     for (int j = i + 1; j < n; j++) {
         if (arr[i] == arr[j]) {
             count++;
-            if(count>frequency){
+            if(count>n/2){
                 max=arr[i];
             }
-            else if(count==frequency){
-                max=-1;
+            
             }else{
                 continue;
             }
